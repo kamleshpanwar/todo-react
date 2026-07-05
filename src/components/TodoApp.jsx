@@ -72,7 +72,7 @@ function TodoApp() {
   return (
     <div className="todo-app">
       <header className="todo-header">
-        <h1>Daily To-Do</h1>
+        <h1>Kamlesh: Daily To-Do</h1>
         <p className="todo-date">{todayLabel()}</p>
       </header>
 
