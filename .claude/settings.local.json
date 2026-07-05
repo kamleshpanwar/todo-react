@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(run)",
+      "Skill(run:*)",
+      "Bash(npm run *)",
+      "Bash(jobs)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:5173/)",
+      "Bash(mkdir -p /c/Users/ASUS/AppData/Local/Temp/claude/c--Users-ASUS-react-practice/ae038fd1-c0ba-4fe0-b538-9d86a2c9e48d/scratchpad)",
+      "Bash('/c/Program Files/Google/Chrome/Application/chrome.exe' --headless --disable-gpu --no-sandbox --screenshot=/c/Users/ASUS/AppData/Local/Temp/claude/c--Users-ASUS-react-practice/ae038fd1-c0ba-4fe0-b538-9d86a2c9e48d/scratchpad/todo-app.png --window-size=700,900 http://localhost:5173/)",
+      "Read(//c/Users/ASUS/AppData/Local/Temp/claude/c--Users-ASUS-react-practice/ae038fd1-c0ba-4fe0-b538-9d86a2c9e48d/scratchpad/**)",
+      "Bash(npm install *)",
+      "Bash(SCRATCH=\"/c/Users/ASUS/AppData/Local/Temp/claude/c--Users-ASUS-react-practice/ae038fd1-c0ba-4fe0-b538-9d86a2c9e48d/scratchpad\" *)",
+      "Read(//c/Users/ASUS/AppData/Local/Temp/claude/c--Users-ASUS-react-practice/ae038fd1-c0ba-4fe0-b538-9d86a2c9e48d/scratchpad/node_modules/**)"
+    ]
+  }
+}
